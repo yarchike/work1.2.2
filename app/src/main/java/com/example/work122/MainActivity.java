@@ -18,7 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
         final TextView textViewRan=(TextView)findViewById(R.id.textViewRan);
         int ran = (int)(Math.random() * 1000);
-        textViewRan.setText("htpp://myfile.org/" + ran);
+        String textLink = getString(R.string.tex_link);
+        textViewRan.setText(textLink + ran);
 
         Button buttonForward = (Button) findViewById(R.id.buttonForward);
         buttonForward.setOnClickListener(new View.OnClickListener() {

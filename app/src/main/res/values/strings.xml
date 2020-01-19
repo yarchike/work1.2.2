@@ -2,4 +2,5 @@
     <string name="app_name">Просмотр Фото</string>
     <string name="button_back">Назад</string>
     <string name="button_forward">Вперед</string>
+    <string name="tex_link">htpp://myfile.org/</string>
 </resources>
